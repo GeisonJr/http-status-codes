@@ -32,7 +32,8 @@ This status code is primarily intended to be used with the Link header, letting 
 
 ## Successful responses
 
-``200 OK``The request has succeeded. The meaning of the success depends on the HTTP method:\
+``200 OK``\
+The request has succeeded. The meaning of the success depends on the HTTP method:
 * GET: The resource has been fetched and is transmitted in the message body.
 * HEAD: The entity headers are in the message body.
 * PUT or POST: The resource describing the result of the action is transmitted in the message body.
